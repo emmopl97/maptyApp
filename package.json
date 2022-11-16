@@ -1,0 +1,19 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Emmanuel",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "regenerator-runtime": "^0.13.10"
+  }
+}
